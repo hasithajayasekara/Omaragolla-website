@@ -25,7 +25,7 @@
         <p>Information about the school, its history, mission, and values.</p>
     </main>
     <footer>
-        <p>&copy; 2024 School Website</p>
+        <p>&copy; 2025 School Website</p>
     </footer>
 </body>
 </html>
