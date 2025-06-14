@@ -1,0 +1,89 @@
+/* Navigation Bar Styles */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: .5rem 0;
+
+    background: #fff;
+    border-bottom: #c9c9c9 .1rem solid;
+
+    z-index: 99;
+}
+
+nav .menu {
+    font-size: 1rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+nav .logo img {
+    width: 2.5rem;
+    margin: 0 1rem;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-links a {
+
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+nav .nav-links a:hover {
+    opacity: 1;
+}
+
+@media screen and (width < 1000px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav .nav-links {
+        width: 90%;
+        padding: 1rem 0;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (width < 600px) {
+    nav .menu {
+        display: initial;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav .nav-links.show {
+        display: flex;
+    }
+
+    nav .nav-links a {
+        margin-top: 1rem;
+    }
+}

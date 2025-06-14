@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>School Website - Home</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/Assets/Navbar/navbar.css">
+    <link rel="stylesheet" href="/Assets/Footer/footer.css">
+    <link rel="shortcut icon" href="/Assets/Images/logo.png" type="image/x-icon">
+    <title>Omaragolla Central College - Home</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DY777PWME"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5DY777PWME');
+    </script>
 </head>
+
 <body>
-   <body>
     <nav>
     <div class="logo">
         <p class="menu">Menu</p>
         <img src="/Assets/Images/logo.png" alt="" srcset="">
-        Omaragolla College
+        Omaragolla Central College
     </div>
     <div class="nav-links">
-        
         <a href="/index.php">Home</a>
-        <a href="/about.php">About</a>
-        <a href="/clubs.php">Clubs &amp; Societies</a>
-        <a href="/sports.php">Sports</a>
-        <a href="/news.php">News</a>
+        <a href="/About/about.php">About</a>
+        <a href="/Club&Society/club&society.php">Clubs & Societies</a>
+        <a href="/Sports/sports.php">Sports</a>
+        <a href="/News/news.php">News</a>
         <a href="/contact.php">Contact</a>
     </div>
 </nav>
     <section class="banner">
         <div class="text">
             <p>Welcome to</p>
-            <h1>Omaragolla COLLEGE</h1>
+            <h1>Omaragolla Central COLLEGE</h1>
             <p>The Premier Buddhist School of Sri Lanka</p>
         </div>
     </section>
 
 
-    
-    
-    <!-- Notice -->
-    <div class="Topic">
-        <a style="pointer-events: none;" href="#">E-Magazines</a>
-    </div>
-        
     <section class="intro">
         <div class="intro-1">
         <h1>Empowering Young Minds for a Brighter Future</h1>
             <p>
-                Omaragolla College is dedicated to the advancement of education. As a school, 
+                Omaragolla Central College is dedicated to the advancement of education. As a school, 
                 we are committed to nurturing the unique talents of young individuals, 
                 empowering them to thrive and contribute meaningfully to society and the wider world. 
                 We strive to create an environment where students can lead healthy, happy, and fulfilling lives.
@@ -53,23 +57,30 @@
         <div class="intro-2">
             <h1>Fostering Excellence Beyond the Classroom</h1>
             <p>
-                At Omaragolla College, learning extends far beyond the classroom.
+                At Omaragolla Central College, learning extends far beyond the classroom.
                 Our exceptional and diverse co-curricular programs empower students to explore
                 their passions and interests with unparalleled depth and breadth.
                 Guided by expert mentors, every boy is given the opportunity to excel
                 in their chosen pursuits, fostering holistic growth and unparalleled achievement.
             </p>
         </div>
-    </section><section class="grid-wrapper">
+    </section>
+    
+    <!-- Notice -->
+    <div class="Topic">
+        <a style="pointer-events: none;" href="#">E-Magazines</a>
+    </div>
+        
+    <section class="grid-wrapper">
         <a href="/Magazines/01/Anada Muthu - Feburary 01.pdf">
-            <img src="/Magazines/01/anada muthu.jpg" alt="" srcset="">
+            <img src="/Magazines/01/anada muthu.jpg" alt="" srcset="" />
             <div class="heading">
                 <p>The Spark of Young Minds: Anada Muthu’s First Edition is Here!</p>
                 <!--<p class="date">March 14, 2025</p>-->
             </div>
         </a>
         <a href="https://online.fliphtml5.com/kvqxi/gido/">
-            <img src="/Magazines/02/the award chronicles.jpg" alt="" srcset="">
+            <img src="/Magazines/02/the award chronicles.jpg" alt="" srcset="" />
             <div class="heading">
                 <p>The Award Chronicles - THE DUKE OF EDINBURGH'S INTERNATIONAL AWARD UNIT</p>
                 <!--<p class="date">March 14, 2025</p>-->
@@ -89,7 +100,7 @@
                                 <div class="upcoming-item show">
                         <div class="upcoming-news" style="background-image: url('/Events/Images/17.jpg');">
                             <a href="/Events/events.php?id=17">
-                                <p>Omaragolla College Rugby Team Ready for 2025 ‘A’ Division League</p>
+                                <p>Ananda College Rugby Team Ready for 2025 ‘A’ Division League</p>
                                 <p class="date">May 24, 2025</p>
                             </a>
                         </div>
@@ -104,17 +115,41 @@
 
         
         <section class="news-sec">
-                                    <div class="news-item">
+                                    <div class="news-item show">
                             <div class="news-news">
-                                <div class="coverImg" style="background-image: url('/News/Cover_Image/72.jpg');"></div>
-                                <a href="/News/news_detailed.php?id=72">
-                                    <p>තෙවසරක ප්&zwj;රගතියේ පුනරාවලෝකනය</p>
-                                    <p class="date">May 24, 2025</p>
-                                    <p class="description">ආනන්ද විද්&zwj;යාලයේ 24 වෙනි විදුහල්පතිවරයා ලෙස ඩී.එම්.එල්.පී. දිසානායක මහතා පත්ව එන්නේ 2022 ජනවාරි 25 වෙනිදාය. ඔහු මීට පෙර මේ විද්&zwj;යාලයේ නියෝජ්&zwj;ය විදුහල්පතිවරයෙකු ලෙසත්, කෙටි කලක් වැඩබලන විදුහල්පතිවරයෙකු ලෙසත් සේවය කොට ඇති නිසා විද්&zwj;යාලයේ සංස්කෘතිය හා සම්ප්&zwj;රදායන් පිළිබඳව මනා අවබෝධයක් ඔහු සතුව ඇත. තනතුරේ වැඩ භාරගත් පසු ඔහු තම ප්&zwj;රමුඛ රාජකාරිය ලෙස සිදු කළේ, අධ්&zwj;යයන කාර්යය මණ්ඩලය, අනධ්&zwj;යයන කාර්ය මණ්ඩලය දෙමාපියන් හා ආදි සිසුන් ඇතුළු පාසල් ප්&zwj;රජාවේ විවිධ පාර්ශ්ව අතර මනා සම්බන්ධීකරණයක් ගොඩනගා ගැනීමයි. ඉක්බිති විද්&zwj;යාලයේ අධ්&zwj;යාපන කටයුතු, ක්&zwj;රීඩා හා විෂය සමගාමි කටයුතු මෙන්ම භෞතික සම්පත්වල තත්ත්වය කෙරෙහි අවධානය යොමු කොට වෙනස් කළ යුතු හා පිළිසකර කළ යුතු දේවල් හදුනාගෙන විවිධ පාර්ශ්ව හා එක්ව කඩිනමින් ඒවාට අදාළ ක්&zwj;රියා මාර්ග වලට අවතීර්ණ වීමය.</p>
+                                <div class="coverImg" style="background-image: url('/News/Cover_Image/78.jpg');"></div>
+                                <a href="/News/news_detailed.php?id=78">
+                                    <p>Ananda College U-18 Baseball Team Crowned Runners-Up at All Island Tournament 2025</p>
+                                    <p class="date">June 4, 2025</p>
+                                    <p class="description">We are proud to announce that the Ananda College Under-18 Baseball Team emerged as the Runners-Up in the 2025 All lsland Under-18 Baseball Championship, showcasing exceptional teamwork and sportsmanship throughout the tournament.</p>
                                 </a>
                             </div>
                         </div>
                                             <div class="news-item">
+                            <div class="news-news">
+                                <div class="coverImg" style="background-image: url('/News/Cover_Image/77.jpeg');"></div>
+                                <a href="/News/news_detailed.php?id=77">
+                                    <p>Victory Beyond Borders: Thehas Kiringoda - Ananda’s Rising Star Crowned Sri Lanka’s Most Outstanding Youth Chess Player</p>
+                                    <p class="date">June 2, 2025</p>
+                                    <p class="description">Ananda College takes immense pride in celebrating Victory Beyond Borders – Thehas Kiringoda Clinches Sri Lanka’s Top Youth Chess Title
+<br><br>
+Thehas Rithmitha Kiringoda, a young chess prodigy whose brilliance continues to illuminate the national and international chess arenas.
+<br><br>
+Born in 2014, Thehas is not only a beacon of promise in Sri Lanka’s chess future but a living testament to the values of discipline, perseverance, and excellence nurtured here at Ananda College. At just 11 years old, he has already earned the prestigious title of “Most Outstanding Youth Chess Player of the Year” at the Sri Lanka National Chess Excellency Awards 2025 — a recognition reserved for the very best in the sport.</p>
+                                </a>
+                            </div>
+                        </div>
+                                    <div class="news-item">
+                            <div class="news-news">
+                                <div class="coverImg" style="background-image: url('/News/Cover_Image/72.jpg');"></div>
+                                <a href="/News/news_detailed.php?id=72">
+                                    <p>තෙවසරක ප්‍රගතියේ පුනරාවලෝකනය</p>
+                                    <p class="date">May 24, 2025</p>
+                                    <p class="description">ආනන්ද විද්‍යාලයේ 24 වෙනි විදුහල්පතිවරයා ලෙස ඩී.එම්.එල්.පී. දිසානායක මහතා පත්ව එන්නේ 2022 ජනවාරි 25 වෙනිදාය. ඔහු මීට පෙර මේ විද්‍යාලයේ නියෝජ්‍ය විදුහල්පතිවරයෙකු ලෙසත්, කෙටි කලක් වැඩබලන විදුහල්පතිවරයෙකු ලෙසත් සේවය කොට ඇති නිසා විද්‍යාලයේ සංස්කෘතිය හා සම්ප්‍රදායන් පිළිබඳව මනා අවබෝධයක් ඔහු සතුව ඇත. තනතුරේ වැඩ භාරගත් පසු ඔහු තම ප්‍රමුඛ රාජකාරිය ලෙස සිදු කළේ, අධ්‍යයන කාර්යය මණ්ඩලය, අනධ්‍යයන කාර්ය මණ්ඩලය දෙමාපියන් හා ආදි සිසුන් ඇතුළු පාසල් ප්‍රජාවේ විවිධ පාර්ශ්ව අතර මනා සම්බන්ධීකරණයක් ගොඩනගා ගැනීමයි. ඉක්බිති විද්‍යාලයේ අධ්‍යාපන කටයුතු, ක්‍රීඩා හා විෂය සමගාමි කටයුතු මෙන්ම භෞතික සම්පත්වල තත්ත්වය කෙරෙහි අවධානය යොමු කොට වෙනස් කළ යුතු හා පිළිසකර කළ යුතු දේවල් හදුනාගෙන විවිධ පාර්ශ්ව හා එක්ව කඩිනමින් ඒවාට අදාළ ක්‍රියා මාර්ග වලට අවතීර්ණ වීමය.</p>
+                                </a>
+                            </div>
+                        </div>
+                                    <div class="news-item">
                             <div class="news-news">
                                 <div class="coverImg" style="background-image: url('/News/Cover_Image/73.jpg');"></div>
                                 <a href="/News/news_detailed.php?id=73">
@@ -134,64 +169,44 @@
                                 </a>
                             </div>
                         </div>
-                                    <div class="news-item show">
-                            <div class="news-news">
-                                <div class="coverImg" style="background-image: url('/News/Cover_Image/70.jpg');"></div>
-                                <a href="/News/news_detailed.php?id=70">
-                                    <p>RANAVIRU UPAHARA - 2025</p>
-                                    <p class="date">May 20, 2025</p>
-                                    <p class="description">The war heroes of Ananda College who sacrificed their lives during the Eelam War, defending the nation's territorial integrity and sovereignty, are commemorated with pride.</p>
-                                </a>
-                            </div>
-                        </div>
-                                    <div class="news-item">
-                            <div class="news-news">
-                                <div class="coverImg" style="background-image: url('/News/Cover_Image/69.jpg');"></div>
-                                <a href="/News/news_detailed.php?id=69">
-                                    <p>අනඳ වෛශාක්&zwj;ය මංගල්&zwj;යය - 2025</p>
-                                    <p class="date">May 15, 2025</p>
-                                    <p class="description">ශ්&zwj;රී සම්බුද්ධ පරිනිර්වාණයෙන් වසර දෙදහස් පන්සිය හැට නවයකට පසුව එළැඹී උත්තම වෛශාක්&zwj;ය මංගල්&zwj;යය  නිමිති කර ගෙන විදුහල්පති ඩී.එම්.එල්.පී. දිසානායක මහතාගේ උපදෙස් හා මග පෙන්වීම යටතේ කළමනාකරණ මණ්ඩලය ඇතුළු ආචාර්ය මණ්ඩලයත්  සමග එක්ව ආනන්ද විද්&zwj;යාල්&zwj;යීය බෞද්ධ සංගමය  සංවිධානය කළ අනඳ වෛශාක්&zwj;ය මංගල්&zwj;ය 2025 සාර්ථක අන්දමින් නිමා විය.</p>
-                                </a>
-                            </div>
-                        </div>
                     </section>
 
 
 
         <section class="grid-wrapper">
+                                <a href="/News/news_detailed.php?id=70">
+                        <img src="/News/Cover_Image/70.jpg" alt="" srcset="" />
+                        <div class="heading">
+                            <p>RANAVIRU UPAHARA - 2025</p>
+                            <p class="date">May 20, 2025</p>
+                        </div>
+                    </a>
+                                <a href="/News/news_detailed.php?id=69">
+                        <img src="/News/Cover_Image/69.jpg" alt="" srcset="" />
+                        <div class="heading">
+                            <p>අනඳ වෛශාක්‍ය මංගල්‍යය - 2025</p>
+                            <p class="date">May 15, 2025</p>
+                        </div>
+                    </a>
                                 <a href="/News/news_detailed.php?id=68">
-                        <img src="/News/Cover_Image/68.jpg" alt="" srcset="">
+                        <img src="/News/Cover_Image/68.jpg" alt="" srcset="" />
                         <div class="heading">
                             <p>Ananda College Taekwondo Champions at the National Taekwondo Championships 2025</p>
                             <p class="date">May 8, 2025</p>
                         </div>
                     </a>
                                 <a href="/News/news_detailed.php?id=67">
-                        <img src="/News/Cover_Image/67.jpg" alt="" srcset="">
+                        <img src="/News/Cover_Image/67.jpg" alt="" srcset="" />
                         <div class="heading">
                             <p>Ananda College Under-17 Badminton Team Crowned All-Island Super A Champions!</p>
                             <p class="date">May 2, 2025</p>
                         </div>
                     </a>
                                 <a href="/News/news_detailed.php?id=66">
-                        <img src="/News/Cover_Image/66.png" alt="" srcset="">
+                        <img src="/News/Cover_Image/66.png" alt="" srcset="" />
                         <div class="heading">
                             <p>Ananda Students Selected to Represent Sri Lanka at the 2025 International Biology Olympiad</p>
                             <p class="date">April 25, 2025</p>
-                        </div>
-                    </a>
-                                <a href="/News/news_detailed.php?id=65">
-                        <img src="/News/Cover_Image/65.jpg" alt="" srcset="">
-                        <div class="heading">
-                            <p>Ananda College Secures Runner-Up Titles at Zonal Volleyball Competitions 2025</p>
-                            <p class="date">April 11, 2025</p>
-                        </div>
-                    </a>
-                                <a href="/News/news_detailed.php?id=64">
-                        <img src="/News/Cover_Image/64.jpg" alt="" srcset="">
-                        <div class="heading">
-                            <p>Ananda College Wins Top Honors at World Wildlife Day Island-Wide Competition</p>
-                            <p class="date">April 9, 2025</p>
                         </div>
                     </a>
                     </section>
@@ -201,7 +216,7 @@
     <div class="container">
         <div class="footer-content">
             <img src="/Assets/Images/logo.png" alt="" srcset="">
-            <h3>Ananda College</h3>
+            <h3>Omaragolla Central College</h3>
             <p>The Premier Buddhist School of Sri Lanka</p>
             <!-- <p>A Leading Buddhist English School</p> -->
         </div>
@@ -210,7 +225,7 @@
             <h3>Quick Links</h3>
             <a href="/index.php">Home</a>
             <a href="/About/about.php">About</a>
-            <a href="/Club&amp;Society/club&amp;society.php">Clubs &amp; Societies</a>
+            <a href="/Club&Society/club&society.php">Clubs & Societies</a>
             <a href="/Sports/sports.php">Sports</a>
             <a href="/News/news.php">News</a>
             <a href="http://akura.anandacollege.edu.lk">Akura Portal</a>
@@ -237,15 +252,13 @@
     </div>
 
     <div class="footer-bottom">
-        <p>copyright ©2024 Ananda College</p>
-        <p>Designed By : Kalindu Sankalpa</p>
-        <p>Latest Updated : May 24, 2025</p>
+        <p>copyright &copy;2025 Omaragolla Central College</p>
+        <p>Designed By : Hasitha Jayasekara</p>
+        <p>Latest Updated : June 11, 2025</p>
     </div>
 </footer>
         <script src="/Assets/Navbar/navbar.js"></script>
         <script src="index.js"></script>
-
-
 </body>
-</body>
+
 </html>
