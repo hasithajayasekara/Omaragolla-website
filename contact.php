@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="/Assets/Navbar/navbar.css">
     <link rel="stylesheet" href="/Assets/Footer/footer.css">
-    <title>Ananda College - Contact</title>
+    <title>Omaragolla Central College - Contact</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <div class="logo">
         <p class="menu">Menu</p>
         <img src="/Assets/Images/logo.png" alt="" srcset="">
-        Ananda College
+        Omaragolla Central College
     </div>
     <div class="nav-links">
         <a href="/index.php">Home</a>
@@ -33,7 +33,7 @@
 
     <section class="contact-box">
         <div class="details">
-            <h1>Ananda College</h1>
+            <h1>Omaragolla Central College</h1>
             <p>Phone : +94 11 269 5503</p>
             <p>Email : principal_anan@sltnet.lk</p>
 
@@ -57,7 +57,7 @@
     
     <section class="contact-box">
         <div class="details">
-            <h1>Ananda College Rugby Playground</h1>
+            <h1>Omaragolla Central College Rugby Playground</h1>
             <p>Phone : +94 76 605 8770</p>
             <!--<p>Email : principal_anan@sltnet.lk</p>-->
             </br>

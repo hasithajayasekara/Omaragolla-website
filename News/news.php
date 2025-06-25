@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="news.css" />
     <link rel="stylesheet" href="/Assets/Navbar/navbar.css">
     <link rel="stylesheet" href="/Assets/Footer/footer.css">
-    <title>Ananda College - News</title>
+    <title>Omaragolla Central College - News</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <div class="logo">
         <p class="menu">Menu</p>
         <img src="/Assets/Images/logo.png" alt="" srcset="">
-        Ananda College
+        Omaragolla Central College
     </div>
     <div class="nav-links">
         <a href="/index.php">Home</a>
